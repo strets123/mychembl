@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Here we install a global version of RDKit in order to make it work with the database cartridge
 export RDBASE=$HOME/rdkit
 export LD_LIBRARY_PATH=$RDBASE/lib:$LD_LIBRARY_PATH
 export PYTHONPATH=$RDBASE:$PYTHONPATH
